@@ -1,16 +1,18 @@
 // A. CONFIGURACIÓN INICIAL
 const CACHE_NAME = 'cocktail-pwa-v2';
+const REPO_PATH = '/OnlyCacheDrinks/';
 
 // 1. Recursos del App Shell (Cache Only)
 const appShellAssets = [
-    '.',
-    'index.html',
-    'main.js',
-    'styles/styles.css',
-    'scripts/app.js',
-    'manifest.json', 
-    'imagenes/icons/192.png',
-    'imagenes/icons/512.png'
+    REPO_PATH, // La raíz del repositorio (ej: /OnlyCacheDrinks/)
+    `${REPO_PATH}index.html`,
+    `${REPO_PATH}main.js`,
+    `${REPO_PATH}styles/styles.css`,
+    `${REPO_PATH}scripts/app.js`,
+    `${REPO_PATH}manifest.json`, 
+    // Corregir también los iconos:
+    `${REPO_PATH}imagenes/icons/192.png`, 
+    `${REPO_PATH}imagenes/icons/512.png`
 ];
 
 // 2. JSON de Fallback para la API (usado cuando la red falla)
