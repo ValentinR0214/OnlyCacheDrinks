@@ -11,8 +11,8 @@ const appShellAssets = [
     `${REPO_PATH}scripts/app.js`,
     `${REPO_PATH}manifest.json`, 
     // Corregir también los iconos:
-    `${REPO_PATH}imagenes/icons/192.png`, 
-    `${REPO_PATH}imagenes/icons/512.png`
+    `/OnlyCacheDrinks/imagenes/192.png`, 
+    `/OnlyCacheDrinks/imagenes/512.png`
 ];
 
 // 2. JSON de Fallback para la API (usado cuando la red falla)
