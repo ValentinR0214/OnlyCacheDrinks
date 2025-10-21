@@ -7,7 +7,10 @@ const appShellAssets = [
     'index.html',
     'main.js',
     'styles/styles.css',
-    'scripts/app.js'
+    'scripts/app.js',
+    'manifest.json', 
+    'imagenes/icons/192.png',
+    'imagenes/icons/512.png'
 ];
 
 // 2. JSON de Fallback para la API (usado cuando la red falla)
